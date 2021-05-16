@@ -5,10 +5,10 @@ import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-class cuadradoTest {
+class CuadradoTest {
 
 	@Test
-	@DisplayName("Test de constructor vacío")
+	@DisplayName("Test de constructor vacï¿½o")
 	void testCuadrado() {
 		Cuadrado c = new Cuadrado();
 		c.setLado(4);
