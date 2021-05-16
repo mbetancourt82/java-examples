@@ -16,15 +16,15 @@ public class Circulo implements FiguraGeometrica{
 		super();
 	}
 
-	public void setRadio(int radio) {
+	public void setRadio(double radio) {
 		this.radio = radio;
 	}
 
 	@Override
 	public double calcularArea() {
 		// TODO Auto-generated method stub
-		double a =0;
-		a=radio*((Math.PI)*(Math.PI));
+		double a = 0;
+		a= radio * ((Math.PI)*(Math.PI));
 		return a;
 	}
 

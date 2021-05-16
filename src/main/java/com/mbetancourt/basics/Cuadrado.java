@@ -8,7 +8,7 @@ public class Cuadrado implements FiguraGeometrica {
 		super();
 	}
 
-	public Cuadrado(int lado) {
+	public Cuadrado(double lado) {
 		super();
 		this.lado = lado;
 	}
@@ -17,7 +17,7 @@ public class Cuadrado implements FiguraGeometrica {
 		return lado;
 	}
 
-	public void setLado(int lado) {
+	public void setLado(double lado) {
 		this.lado = lado;
 	}
 
