@@ -24,6 +24,7 @@ public class Cuadrado implements FiguraGeometrica {
 	@Override
 	public double calcularArea() {
 		// TODO Auto-generated method stub
+		System.out.println("calculando área de cuadrado --------");
 		double a = lado * lado;
 		return a;
 	}
